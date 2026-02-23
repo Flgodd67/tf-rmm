@@ -435,7 +435,7 @@ void rec_run_loop(struct rec *rec, struct rmi_rec_exit *rec_exit)
 		assert(plane->sysregs != NULL);
 
 		// if(rec->active_plane_id != 0) printf("Plane Active Currently: %u\n", rec->active_plane_id);
-
+		printf("Plane Active Currently: %u\n", rec->active_plane_id);
 		/*
 		 * We must check the status of the arch timers in every
 		 * iteration of the loop to ensure we update the timer
