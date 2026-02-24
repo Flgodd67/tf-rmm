@@ -17,6 +17,7 @@
 #include <smc-rsi.h>
 #include <timers.h>
 #include <utils_def.h>
+#include <stdio.h>
 
 static void copy_state_from_plane_entry(struct rec_plane *plane,
 					struct rsi_plane_enter *entry,
