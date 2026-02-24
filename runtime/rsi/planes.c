@@ -268,6 +268,7 @@ static bool sysreg_access(struct rsi_result *res, unsigned long *sysreg,
 {
 	if (is_128b) {
 		/* No 128-bit registers allowed here */
+		printf("is 128-bit reg\n");
 		return false;
 	}
 
