@@ -273,6 +273,8 @@ static bool sysreg_access(struct rsi_result *res, unsigned long *sysreg,
 		return false;
 	}
 
+	printf("IF here, should return true\n");
+
 	if (read) {
 		res->smc_res.x[1] = *sysreg;
 	} else {
